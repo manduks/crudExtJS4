@@ -1,0 +1,32 @@
+
+$pv-menu-item : #AAA;
+$corpotek-orange : #F3AD1C;
+$corpotek-gray : #666666;
+
+.pv-menu-item{
+	background-color:$corpotek-gray;
+	height:50px;
+	color:$corpotek-orange;
+	text-align: center;
+	border-bottom:2px solid $corpotek-orange;
+	
+	padding-top:20px;
+	cursor:pointer;
+
+	b{
+		float:right;
+	}
+
+	i{
+		float: left;
+		font-size: 20px;
+		color:#FFF;
+	}
+
+	&:hover{
+		background-color: $corpotek-orange;
+		color: $corpotek-gray;
+		border-bottom:2px solid $corpotek-gray;
+		border-top:2px solid $corpotek-gray;
+	}
+}
